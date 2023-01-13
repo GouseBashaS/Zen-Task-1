@@ -1,1 +1,16 @@
 Write a blog on Difference between HTTP1.1 vs HTTP2?
+//HTTP1.1 vs Http2.0
+***********************
+HTTP1.1
+1.Http1.1 was released in 1997.
+2.It is a sequential protocol.
+3.We can send a single request at a time using a single connection.
+4.It uses requests resource Inlining for use getting multiple pages
+5.we must explicitly require the compression of requests and responses.
+HTTP2.0
+1.Http2.0 was officially released in 2015.
+2.It is focused on improving the binary protocol.
+3.We can do send and receice a multiple request at the same time using a single connenction.
+4.To avoid a server receiving lots of requests,introduced a server push functionality. 
+5.To executes a GZip compression automatically.
+6.we have TCP connections with or not TLS (HTTPS and HTTP).
